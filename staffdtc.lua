@@ -307,7 +307,7 @@ xpcall(function()
         local Title = Instance.new("TextLabel")
         Title.Size = UDim2.new(1, -42, 1, 0)
         Title.BackgroundTransparency = 1
-        Title.Text = "Moderator Detected"
+        Title.Text = "nigga detected"
         Title.TextColor3 = Color3.fromRGB(240, 240, 240)
         Title.TextSize = 17
         Title.Font = Enum.Font.GothamBold
@@ -457,7 +457,7 @@ xpcall(function()
         padding.Parent = canvas
 
         local title = Instance.new("TextLabel")
-        title.Text = "Moderator Detector"
+        title.Text = "nigga detector"
         title.Font = Enum.Font.GothamBold
         title.TextSize = 18
         title.TextColor3 = Color3.fromRGB(236, 236, 236)
@@ -503,9 +503,9 @@ xpcall(function()
         local hasDetected = (hasServerStaff or hasFriendStaff)
 
         local statusText = ""
-        if hasServerStaff then statusText = "Moderators detected!" end
+        if hasServerStaff then statusText = "no nigga detected" end
         if hasFriendStaff then statusText = statusText .. (hasServerStaff and "\n" or "") .. "Staff friends detected!" end
-        if statusText == "" then statusText = "No staff detected." end
+        if statusText == "" then statusText = "no nigga detected" end
 
         local statusColor = hasDetected and Color3.fromRGB(255, 100, 100) or Color3.fromRGB(255, 255, 255)
         local duration = hasDetected and 60 or 10
